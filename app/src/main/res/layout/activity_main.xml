@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.codinginflow.tictactoe.MainActivity">
+    tools:context="com.example.tictactoe.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -62,6 +62,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
 
     </LinearLayout>
 
@@ -90,6 +96,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
 
     </LinearLayout>
 
@@ -114,6 +126,12 @@
 
         <Button
             android:id="@+id/button_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/button_23"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
