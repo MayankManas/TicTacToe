@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
 
-        Button buttonReset = (findViewById(R.id.button_reset));
+        Button buttonReset = findViewById(R.id.button_reset);
         buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 player2Points=0;
                 player1Turn=true;
                 updatePointsText();
+
+                roundCount=0;
 
             }
         });
