@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 player1Points=0;
                 player2Points=0;
                 player1Turn=true;
-
+                updatePointsText();
+                roundCount=0;
 
             }
         });
