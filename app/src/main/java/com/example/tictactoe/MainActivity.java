@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              /*  for (int i = 0; i < 4; i++) {
+                for (int i = 0; i < 4; i++) {
                     for (int j = 0; j < 4; j++) {
                         buttons[i][j].setText("");
                     }
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 player1Points=0;
                 player2Points=0;
                 player1Turn=true;
-                */
+
 
             }
         });
