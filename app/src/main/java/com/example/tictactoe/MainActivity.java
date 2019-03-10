@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         roundCount++;
-        if(roundCount>=7)
+        if(roundCount>0)
         {
             if (checkForWin()) {
                 if (player1Turn) {
