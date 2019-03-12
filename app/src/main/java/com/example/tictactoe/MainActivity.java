@@ -56,6 +56,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
+        Button resetBoard = findViewById(R.id.reset_board);
+        resetBoard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                for (int i = 0; i < 4; i++) {
+                    for (int j = 0; j < 4; j++) {
+                        buttons[i][j].setText("");
+                    }
+                }
+               // player1Points=0;
+               // player2Points=0;
+                player1Turn=true;
+               // updatePointsText();
+
+                roundCount=0;
+
+            }
+        });
+
     }
 
     @Override
