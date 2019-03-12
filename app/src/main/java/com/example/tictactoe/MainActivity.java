@@ -90,17 +90,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         roundCount++;
-
-        if (checkForWin()) {
-            if (player1Turn) {
-                player1Wins();
+        if(roundCount>0)
+        {
+            if (checkForWin()) {
+                if (player1Turn) {
+                    player1Wins();
+                } else {
+                    player2Wins();
+                }
+            } else if (roundCount == 16) {
+                draw();
             } else {
-                player2Wins();
+                player1Turn = !player1Turn;
             }
-        } else if (roundCount == 16) {
-            draw();
-        } else {
-            player1Turn = !player1Turn;
         }
 
     }
